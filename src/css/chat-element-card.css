@@ -1,0 +1,65 @@
+.chat-element-card-container {
+    padding: 0 20px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.227);
+}
+
+.chat-element-card-container:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.chat-element-card-info-part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.their-profile-picture {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.online {
+    border: solid 3px rgb(30, 255, 0);
+}
+
+.their-profile-name {
+    max-width: 270px;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.time {
+    font-size: small;
+    color: #606060;
+    /* display: none; */
+}
+
+.new-message-notification {
+    justify-self: end;
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 0.75em;
+    border-radius: 50%;
+    background-color: rgb(0, 231, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

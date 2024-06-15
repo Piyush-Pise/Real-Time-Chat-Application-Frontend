@@ -1,0 +1,38 @@
+@keyframes onMessage {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.message-container {
+    padding: 0.8em 1em;
+    padding-right: 4rem;
+    max-width: 55%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    display: flex;
+    position: relative;
+    animation: onMessage 0.5s forwards;
+}
+
+.me {
+    align-self: flex-end;
+    /* background-color: rgb(206, 228, 128); */
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.468);
+    margin-left: auto;
+}

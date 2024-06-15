@@ -1,0 +1,39 @@
+.side-bar-header-container {
+    min-height: 65px;
+    background-color: rgb(0, 76, 255);
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0 25px;
+    gap: 10px;
+    align-items: center;
+}
+
+.your-profile-picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.your-profile-name {
+    color: white;
+    font-size: 1.1em;
+}
+
+.options-menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.options {
+    margin-left: auto;
+    color: white;
+    /* outline: auto; */
+}
+
+.options:hover {
+    cursor: pointer;
+}

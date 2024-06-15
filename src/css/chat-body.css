@@ -1,0 +1,87 @@
+.chat-body-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.chat-body-section {
+    bottom: 0;
+    max-height: 565px;
+    /* flex: 1; */
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-body-section::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.chat-input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 30px;
+    /* height: 50px; */
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    /* justify-content: stretch; */
+}
+
+textarea {
+    flex: 1;
+    resize: none;
+    /* overflow: hidden; */
+    font-size: 1rem;
+    padding: 0.9em ;
+    max-height: 8em;
+    border-radius: 20px;
+    border: solid transparent 2px;
+}
+
+textarea::-webkit-scrollbar
+{
+    display: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: solid rgba(0, 0, 255, 0.82) 2px;
+}
+
+.send {
+    margin-left: 20px;
+    background-image: url('/send.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    border-radius: 5px;
+    border: solid 2px transparent;
+    /* outline: auto; */
+}
+
+.send:hover {
+    cursor: pointer;
+}
+
+.send:focus-visible {
+    border: solid 2px blue;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}

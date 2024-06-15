@@ -1,0 +1,30 @@
+.chat-header-container {
+    /* max-width: 100%; */
+    padding: 0 25px;
+    background-color: #0051ff;
+    /* background-color: blue; */
+    min-height: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    background-image: url('/avatar.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.profile-name {
+    color: white;
+    font-size: 1.1em;
+}

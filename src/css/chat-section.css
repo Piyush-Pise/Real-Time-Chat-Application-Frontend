@@ -1,0 +1,12 @@
+.chat-section-container {
+    /* max-width: 800px; */
+    flex: 1;
+    /* background-color: rgb(255, 249, 237); */
+    /* background-color: rgb(236, 236, 244); */
+    /* background-image: url('/dot.svg'); */
+    background-image: linear-gradient(45deg, rgb(240, 240, 255), rgb(211, 211, 255));
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: wave 2s infinite;
+}
